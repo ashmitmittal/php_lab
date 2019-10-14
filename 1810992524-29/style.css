@@ -1,0 +1,11 @@
+h1{
+    color: red;
+    font-family: cursive;
+}
+a:hover{
+    color: blue;
+    font-family: cursive;
+}
+p{
+    font-size: 150%;
+}
