@@ -9,7 +9,7 @@
     <title>Login</title>
     <style>
     body{
-      background: linear-gradient(to top, #400000 , 	#600000 );
+      /* background: linear-gradient(to top, #400000 , 	#600000 ); */
     }
     .form-container{
         /* background: linear-gradient(to bottom, #fff , 	#fff ); */
@@ -23,7 +23,7 @@
       width: 30%;
       margin: 25px auto;
     } 
-     @media only screen and (max-width: 768px) {
+     @media only screen and (max-width: 800px) {
       .res{
         width: 100%;
       }

@@ -8,7 +8,7 @@
     <title>SignUp</title>
     <style>
     body{
-      background: linear-gradient(to top, #400000 , 	#600000 );
+      /* background: linear-gradient(to top, #400000 , 	#600000 ); */
     }
     .form-container{
         /* background: linear-gradient(to bottom, #fff , 	#fff ); */
@@ -33,7 +33,7 @@
     
 <div class="container-fluid">
    <div style="margin-top: 40px;">
-       <h1 style="text-align: center; color: #6A33D3; margin: 0; padding: 0;">Login</h1>
+       <h1 style="text-align: center; color: #6A33D3; margin: 0; padding: 0;">Sign Up</h1>
        <div class="form-container res">
            <form action="includes/signup.inc.php" method="POST">
                <div class="form-group">

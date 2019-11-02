@@ -10,18 +10,23 @@
 <body>
 <?php
 include_once 'includes/dbs.php';
-$query = "SELECT * FROM USERS;";
+$query = "SELECT * FROM users;";
 $result=mysqli_query($con,$query);
 $row = mysqli_fetch_assoc($result);
 $dbsMail = $row['email'];
 $dbsPwd = $row['pwd'];
 $email = $_POST['email'];
 $pwd = $_POST['pwd'];
+// echo $dbsMail."<br>";
+// echo $dbsPwd."<br>";
+// echo $email."<br>";
+// echo $pwd."<br>";
+
     if(isset($_POST['submit']))
     {
         if(!empty($email) && !empty($pwd))
         {
-            if($email == $dbsMail && $pwd = $dbsPwd)
+            if($email == $dbsMail && $pwd == $dbsPwd)
             {
                 // echo '<p style="text-align: center;" class="alert alert-primary">Welcome Nobita</p>';
                 session_start();
