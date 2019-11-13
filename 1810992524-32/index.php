@@ -7,6 +7,7 @@
     <title>Database Conection</title>
 </head>
 <body>
+<h1>Database connection</h1>
     <?php
         include_once 'includes/dbs.php';
         $query = "SELECT * FROM SAMPLE;";

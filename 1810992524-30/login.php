@@ -15,7 +15,7 @@ $pwd = $_POST['pwd'];
     {
         if(!empty($email) && !empty($pwd))
         {
-            if($email == "nobita@techhack.tech" && $pwd = "Admin123")
+            if($email == "ashmit@gmail.com" && $pwd = "Admin123")
             {
                 // echo '<p style="text-align: center;" class="alert alert-primary">Welcome Nobita</p>';
                 session_start();
