@@ -28,4 +28,3 @@
             echo "You cannot upload files!";
         }
     }
-?>
